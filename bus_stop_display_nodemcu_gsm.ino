@@ -1,7 +1,9 @@
+// Used ESP8266 and SIM800L
+
 #include <SoftwareSerial.h>
 
-#define RX 13  // SIM800 TX connected to D7 (GPIO13)
-#define TX 15  // SIM800 RX connected to D8 (GPIO15)
+#define RX 3  // SIM800 TX connected to D7 (GPIO13)
+#define TX 1  // SIM800 RX connected to D8 (GPIO15)
 
 SoftwareSerial sim800(RX, TX);  // Create a serial connection to SIM800L
 
